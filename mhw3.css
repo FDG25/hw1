@@ -1,0 +1,1456 @@
+body {
+  margin: 0px; 
+}
+
+header {
+  height: 720px; 
+  background-image: url("https://www.thebalancecareers.com/thmb/8GtVxyNxwXFjw-OtpVF4U0UhUmA=/5020x2824/smart/filters:no_upscale()/nurse-56a0f10d5f9b58eba4b567dd.jpg");
+  background-size: cover;
+  background-position: top;  
+  position: relative;  
+  border-bottom: 2px solid black;
+
+  display: flex;  
+  align-items: center;   
+  justify-content: center;
+}
+
+#overlay{  
+  background-color: rgba(0, 0, 0, 0.3); 
+  position: absolute;
+  top: 0px; 
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 520px) {
+  header {
+    height: 25em;
+    line-height: 1.2; 
+  }
+}
+
+header h1 {
+  color: black;  
+  font-size: 1em;
+  text-align: center;
+  z-index: 1;  
+  line-height: 1.5;
+}
+
+header h1 strong {
+  font-size: 5em;
+  letter-spacing: 3.5px;
+  /*color: black;*/
+  font-family: 'Libre Baskerville', 'sans-serif';
+  font-style: italic;
+  text-shadow: 8px 8px 12px white,-4px -4px 6px white;   /*proprietà text-shadow non vista durante il corso --> aggiunta in accordo con messaggi sul gruppo Discord*/
+}
+
+@media (max-width: 520px) {
+  header h1 strong {
+    font-size: 2.2em;
+    text-shadow: 8px 8px 12px white, -2px -2px 2px white;
+    letter-spacing: 4px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 1024px) {  
+  header h1 strong {
+    font-size: 4.35em;
+    text-shadow: 8px 8px 12px white, -2px -2px 2px white;
+    letter-spacing: 4px;
+  }
+}
+
+header #logo{
+    display:flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+#logo img{
+  width: 110px;
+  height: 110px;
+  margin-top: 25px;
+}
+
+#logo h2{
+  font-size: 3.7em;
+  /*color: black;*/
+  font-family: 'Poppins', 'sans-serif';
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  margin-top: -10px;
+  margin-bottom: -145px; 
+  text-shadow: 8px 8px 12px white,-4px -4px 6px white;
+}
+
+@media(max-width:520px){
+  #logo h2{
+    font-size: 1.8em;
+    text-shadow: 8px 8px 12px white,-4px -4px 6px white;
+    margin-bottom: -50px;
+    margin-top: 1px;
+  }
+}
+
+@media(max-width:520px){
+  #logo img{
+      width: 50px;
+      height: 50px;
+  }
+}
+
+header nav {
+  color: black;
+  text-transform: uppercase;
+  position: absolute;  
+  top: 0;
+  left: 0;  
+  right: 0;
+  height: 8%;
+  background: rgba(46, 232, 228, 0.5);
+
+  font-size: .875em;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+
+header nav #contattaci a{
+  /*color: black;*/
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif, 'Tahoma';
+  font-size: 1.9em;
+  /*font-style: normal;*/
+  /*line-height: normal;*/  /*default*/
+  letter-spacing: 1px;  
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+header nav #contattaci a:hover {
+  background-color: rgba(27, 161, 161, 0.4);
+  color: black;
+}
+
+#contattaci a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 520px) {
+  header nav #contattaci a{
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 6.8px 9.4px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: -10px;
+  }
+}
+
+a, .arrow, .stella {   
+    cursor: pointer;
+}
+  
+#pulsante a{
+  /*color: black;*/
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive, 'Arial';
+  font-size: 1.25em;;
+  /*font-style: normal;*/
+  /*line-height: normal;*/  /*default*/
+  padding: 10px 15px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 100px;
+  letter-spacing: 1px;
+  margin-right: 5px;
+}
+  
+#pulsante a:hover {
+  background-color: rgba(252, 252, 252, 0.4); 
+}
+  
+#links {
+  /*color: black;*/
+  /*font-weight: normal;*/
+  font-family: 'Amatic SC', cursive, 'Georgia';
+  font-size: 1.15em;
+  /*font-style: normal;*/
+  /*line-height: normal;*/  /*default*/
+  letter-spacing: 0.5px;
+}
+
+.effetto:hover{
+  text-shadow: 8px 8px 12px rgb(24, 23, 23);
+}
+
+#links a {
+  margin: 15px;  
+  text-decoration: none;  
+  color: black;
+}  
+
+#menu {  
+  display: none;  
+}
+  
+#menu div {  
+  width: 24px;  
+  height: 3px;  
+  background-color: white;  
+  margin: 4px 0; 
+}
+  
+@media (max-width: 1242px) {
+  #links, #pulsante {
+    display: none; 
+  }
+  
+  #menu {
+    display: block;  
+  }
+}
+
+  /*---------------------------------------------------*/
+  
+  .barracolorata{  
+    height: 100px;
+    background-color: rgba(7, 150, 138, 0.75); 
+    margin-bottom: 40px;  
+    margin-top: 40px; 
+    margin-left: 100px;  
+    margin-right: 100px;
+  }
+
+  section {
+    margin: 40px 100px;  
+    text-align: center;  /*tutte le parti testuali dei body delle varie pagine html verranno centrate*/
+  }
+
+  section h1{   
+    font-size: 2em;
+    letter-spacing: 2px;
+    background-color: rgba(7, 150, 138, 0.75);
+    border-top: 6px solid rgba(0, 0, 0, 0.6);
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+  }
+
+  @media (max-width: 520px) {
+    .barracolorata{
+      height: 60px;
+      margin: 35px 15px;
+    }
+
+    section {
+      margin: 35px 15px;
+    }
+  
+    section h1{
+      font-size: 1.35em;
+    }
+  }
+
+  @media (min-width: 520px) and (max-width: 650px) { 
+    .barracolorata{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    section {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  /*---------------------------------------------------*/
+
+  .details {
+    display: flex;
+    background-color: rgba(224, 224, 224, 0.2);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  
+  #preferiti .details {   
+  /*display: flex;*/
+    justify-content: space-around;
+    align-items: center; 
+
+  /*background-color: rgba(224, 224, 224, 0.2);
+    border-left: 2px solid black;
+    border-right: 2px solid black; */
+  }
+  
+  #preferiti .details div{
+    padding: 40px; 
+    flex-grow: 1;  
+    max-width: 570px; 
+  }
+
+  #preferiti .details img {
+    width: 55%;
+    height: 55%;
+    border: 1px solid black;  
+    margin-bottom: -20px; 
+  }
+
+  #preferiti img.stella {
+    border-radius: 10%;
+    border: 2px solid black;
+    z-index: 1;
+    height: 11%;
+    width: 11%;
+  }
+
+  @media (max-width: 850px) {  
+    #preferiti .details {                   
+      flex-direction: column;
+    }
+  }
+
+  #principale .details {   
+    /*display: flex;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*align-items: center; */
+    
+  /*background-color: rgba(224, 224, 224, 0.2);
+    border-left: 2px solid black;
+    border-right: 2px solid black; */
+  }
+
+  #principale .details div {
+    width: 40%;  
+    padding: 40px;
+    margin-bottom: -20px;
+  }
+    
+    #principale .details img {
+      width: 90%;  
+      margin-bottom: -20px; 
+    }
+  
+    #principale img.stella {
+      display: flex;
+      border-radius: 10%;
+      border: 2px solid black;
+      margin-left: -6px;
+      margin-bottom: -18px;
+      z-index: 1;
+      max-height: 66px;
+      width: 10%;
+    }
+
+    @media (max-width: 520px) {  
+      #principale .details {   
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+      }
+
+      #principale .details div {
+        width: 70%;  
+      }
+
+      #principale .details img {
+        width: 90%;
+        height: 90%;
+        border: 1px solid black;  
+        margin-bottom: -15px; 
+      }
+    
+      #principale img.stella {
+        margin-bottom: -10px;
+        height: 20%;
+        width: 20%;
+      }
+  
+      #principale .arrow{
+        margin-top: 60px;
+      }
+    }
+  
+    @media (min-width: 521px) and (max-width: 810px) {  
+      #principale .details {                   
+        flex-grow: 1;
+        font-size: 0.7em;
+      }
+      #principale .details div {
+        width: 60%;  
+      }
+      #principale img.stella {
+        height: 16%;
+        width: 18.5%;
+        margin-left: -15px;
+      }
+      #principale .arrow{
+        margin-top: 60px;
+      }
+  
+      #principale .moredetails{
+        margin-top: 5px;
+      }
+    }
+  
+    @media (min-width: 811px) and (max-width: 1020px) {  
+      #principale img.stella {
+        height: 13%;
+        width: 15%;
+        margin-left: -9px;
+        margin-bottom: -16px;
+      }
+      #principale .details div {
+        width: 60%;  
+      }
+      
+      #principale .arrow{
+        margin-top: 54px;
+      }
+    }
+
+    /*--------------------------------------*/
+    /*FILE news.html*/
+    #news header{
+    background-image: url("https://coolwallpapers.me/picsup/5421097-medicine-wallpapers.jpg");
+    }
+   
+    #news header nav, #servizi header nav{
+      background-color: rgba(33, 126, 189, 0.8);
+    }
+
+    #news section h1 {
+      background-color: rgba(33, 126, 189, 0.9);
+      margin-top: -50px;
+      margin-bottom: -30px;
+    }
+
+    #news footer,  #servizi footer {
+      background-color: rgba(33, 126, 189, 0.9);
+    }
+
+    #news footer #lineaconclusiva, #servizi footer #lineaconclusiva{
+      background-color: rgba(22, 94, 141, 0.9);
+    }
+
+    #novita {
+      margin-top: 150px;
+    }
+
+    .container{
+      width: 1260px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      margin-bottom: 150px;
+    }
+
+    .containerinterno{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between
+    }
+
+/*  DA SISTEMARE MEGLIO
+    @media (max-width: 500px) {  
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .containerinterno{
+        flex-direction: column;
+        margin-right: 860px;
+      }
+    }
+    
+    @media (max-width: 1460px) {  
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .containerinterno{
+        flex-direction: column;
+      }
+    }  */
+    
+    .box{
+      width: 390px;
+      border: 1px solid rgb(233, 233, 233);
+      position: relative;
+      background-color: rgba(224, 224, 224, 0.1);
+      margin-bottom: 35px;
+    }
+
+    .box img{
+      max-width: 390px;
+      height: 262px;
+    }
+
+    .box span{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      background-color: rgb(28, 112, 168);
+      border-bottom: 2px solid rgb(29, 84, 121);
+      padding: 8px 45px;
+      color: white;
+      font-size: 1em;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    .boxcontent{
+      padding-bottom: 40px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      position: relative;
+    }
+
+    .boxcontent h4{
+      font-size: 1.8em;
+      border-bottom: 1px solid rgb(233, 231, 231);
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    .boxcontent p{
+      margin-bottom: 50px;
+      font-size: 1.1em;
+    }
+
+     .box a{
+      background-color: rgb(28, 112, 168, 0.9);
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      position: absolute;
+      right: 135px;
+      bottom: 30px;
+    }
+  
+    .box a:hover{
+      text-decoration: underline;
+    }
+
+    .statistiche {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.1em;
+    color:#6d6d6d;
+    border-bottom: 3px solid rgba(33, 126, 189, 0.9);
+    border-right: 3px solid rgba(33, 126, 189, 0.9);
+    border-left: 3px solid rgba(33, 126, 189, 0.9);
+    margin-bottom: 140px;
+    margin-top: -33px;
+    }
+
+    #covidupdate .statistiche {
+      background: url("sfondocovid.png");  
+      background-size: 1420px;
+    }
+
+    #coviditaliaupdate .statistiche {
+      background: url("sfondocoviditalia.png");
+      background-size: 1420px;
+    }
+
+    #vacciniupdate .statistiche{
+      background: url("sfondovaccini.png");  
+      background-size: 800px;
+      background-position-y: top; 
+    }
+
+    .statistiche .coloured {
+      color: rgb(30, 118, 177);
+    }
+
+    .statistiche div {
+      padding: 35px;
+    }
+
+    .statistiche div p{
+      margin-bottom: -40px;
+      }
+
+    .lastupdate {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 30px;
+      font-size: 0.55em;
+      font-family: 'Libre Baskerville', sans-serif;
+      color: rgb(52, 90, 173);
+      text-decoration: underline;
+    }
+
+    /*--------------------------------*/
+    /*SERVIZI*/
+    
+    #servizi header{
+      background-image: url("https://storage.googleapis.com/aims-edu/images/000/001/174/lead/64.jpg");
+    }
+
+    #trovadottore {
+      border: 2px solid black;
+      margin-top: 100px;
+      margin-bottom: 110px;
+      background-color: white;
+    }
+
+    #trovadottore h2 {
+      font-family: "Montserrat";
+      color: rgba(25, 105, 143);
+      /*display: block*/
+      font-size: 2.9em;
+      padding: 20px;
+      background-color: rgb(248, 247, 247, 0.5);
+      border-top: 1px solid rgb(184, 184, 184);
+      border-bottom: 1px solid rgb(184, 184, 184);
+    }
+
+    #trovadottore label {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;  /*questo fa si che si restringano le caselle di input*/
+      font-size: 1.4em;
+    }
+    #trovadottore select {
+      width: 15.8%;
+      margin-left: 5px;
+      font-size: 1.4em;
+    }
+
+    #trovadottore input {
+      margin-left: 0.5em;
+    }
+
+    #trovadottore form {
+      background-color: white;
+      margin-top: 20px;
+      width: 66%;
+      margin-left: auto;
+      margin-right: auto;	
+    }
+
+    #trovadottore form div{
+        margin-bottom: 60px;
+    }
+
+    #trovadottore .casella_invia {
+      margin-top: 35px;
+      margin-bottom: 20px;
+      background-color: rgba(25, 105, 143);
+    }
+
+    .casella_invia:hover{
+      cursor: pointer;
+    }
+    
+    /*
+    #trovadottore #doctor-view {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    #trovadottore #doctor-view .doctor {
+      margin: 10px;
+      border: 1px solid slategray;
+      padding: 10px;
+      max-width: 230px;  
+      max-height: 230px; 
+      display: flex;
+      flex-direction:column;
+      cursor: pointer;
+      background-color: white; 
+    }
+    
+    #trovadottore #doctor-view .doctor:hover {
+      background-color: #cfe3ff;
+    }
+  */
+
+      .cont1{
+        width: 55%;
+        margin: 30px auto;
+      }
+
+      .lista{
+          margin: 0px;
+          padding: 15px;
+      }
+
+      .lista span h4{
+        font-size: 2.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(105, 105, 105);
+      }
+
+      .listali{
+          display: flex;
+          padding: 40px 15px;
+          border-bottom: 1px solid rgb(172, 172, 172);
+      }
+
+      .listaimg img{
+          border-radius: 100px;
+          border: 1px solid black;
+          width: 200px;
+          height: 200px;
+      }
+
+    .listacontenuto{
+        flex-grow: 1;
+        margin-left: -140px;
+      }
+        
+    .listacontenuto h4{
+        margin: 0;
+        font-size: 1.6em;
+        margin-top: 0px;
+      }
+
+    .listacontenuto p{
+        margin-top: 10px;
+        font-size: 1.3em;
+        color: rgb(143, 143, 143);
+      }
+
+      div.numdottori {
+        font-size: 2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(25, 105, 143);
+      }
+
+
+    /*--------------------------------------*/
+    /*FILE iscriviti.html*/
+      .iscrizione header{
+        background-image: url("http://www.liguresistemi.it/wp-content/uploads/2017/01/sicurezza-email-infosistemi-torino.jpg");
+        background-position: center;
+      }
+
+      .iscrizione header nav{
+        background-color: rgba(25, 105, 143, 0.8);
+      }
+
+      .iscrizione section{
+        margin-top: 100px;
+        border-top: 5px solid rgb(231, 229, 229);
+      }
+  
+      #login form, #registrazione form{
+          border-bottom: 5px solid rgb(231, 229, 229);
+          border-right: 5px solid rgb(231, 229, 229);
+          border-left: 5px solid rgb(231, 229, 229);
+      }
+
+
+      .contenitoreregistrazione, .contenitoretitolo {
+          padding: 20px;
+          background-color: rgb(243, 243, 243);
+      }
+
+      .contenitoretitolo {
+        border-left: 5px solid rgb(231, 229, 229);
+        border-right: 5px solid rgb(231, 229, 229);
+      }
+
+      .contenitoreregistrazione div{
+          margin-top: 30px;
+      }
+
+      .contenitoreregistrazione label{
+        font-size: 1.6em;
+      }
+
+      .contenitoreregistrazione h2, .contenitoretitolo h2{
+        font-size: 2.6em;
+        font-family: 'Libre Baskerville', sans-serif;
+      }
+
+      .contenitoreregistrazione p, .contenitoretitolo p{
+        font-size: 1.3em;
+        font-style: italic;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      .contenitoreregistrazione .errore{
+        margin-top: 10px;
+        font-size: 1.4em;
+        color: red;
+      }
+
+      
+      .bianco{
+        background-color: white;
+      }
+/*
+      .rosso{
+        color: red;
+      } */
+
+      .casella, .casella_invio{
+        font-size: 1em;
+        display: inline-block;
+        width: 97%;
+        padding: 12px;
+        margin: 8px 0;  
+        border: 1px solid rgb(223, 223, 223);
+      }
+
+      .casella_invi:hover{
+        cursor: pointer;
+      }
+
+      .flex_checkbox {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        display: block;
+      } 
+
+      .flex_checkbox input{
+        width: 20px;
+        height: 20px;
+      }
+
+      .casella_invio {
+        background-color: rgba(25, 105, 143);
+        color: white;
+        margin-top: 20px;
+      }
+
+      .casella_invio:hover {
+        opacity: 0.7;
+      }
+
+      #login, #registrazione{
+        margin-bottom: 170px;
+      }
+
+      .flex_checkbox{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      .iscrizione footer {
+        background-color: rgba(33, 126, 189, 0.9);
+      }
+
+      .iscrizione footer #lineaconclusiva{
+        background-color: rgba(22, 94, 141, 0.9);
+      }
+
+    #registrazione span {
+      display: block;  /*lo span di default è un elemento inline --> vogliamo che si comporti come un elemento block (cioè come se fosse un div), ma usando uno span al posto di un div ci semplifichiamo la vita nel file JS*/
+      font-size: 1.2em;
+    }
+    
+    .iscrizione .signup {
+      font-size: 1.5em;
+    }
+
+    /*--------------------------------*/
+    /*CONTATTACI*/
+
+    section.informazioni {
+      margin-top: 120px;
+      background-color: rgba(207, 206, 206, 0.1);
+      font-family: "Montserrat";
+      height: 550px;
+      border: 2px solid rgb(11, 90, 95);
+    }
+
+    .informazioni h2{
+      margin-top: 35px;
+      color: rgb(11, 90, 95);
+    }
+    
+    #contact .informazioni {
+      margin-bottom: -122px;
+    }
+    
+    .contenitorecontatti {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+    
+    .contenitorecontatti .contattiinterno{
+      text-align: center;
+    }
+    
+    .contenitorecontatti .contattiinterno .icone {
+      font-size: 2em;
+    }
+
+    .contattiinterno img{
+      width: 12%;
+    }
+    
+    .contenitorecontatti .contattiinterno .icone h4,
+    .contenitorecontatti .contattiinterno .icone p{
+      font-weight: normal;
+      margin: 0;
+      padding: 2px 5px;
+      font-size: 0.8em;
+    }
+    
+    .contenitorecontatti .contattiinterno .icone h4{
+      margin: 5px 0;
+      font-size: 1.5em;
+    }
+
+    #contact header{
+      background-image: url('https://www.outfrontmedia.ca/-/media/images/ofmcanada/images/contact-us-envato-blocks.jpg');
+      background-position: top;
+    }
+
+    #contact header nav{
+      background-color: rgba(33, 126, 189, 0.8);
+    }
+
+    #contact footer {
+      margin-top: 250px;
+    }
+
+    section#contactus {
+      margin-top: 100px;
+      margin-bottom: 250px;
+      background-color: rgba(207, 206, 206, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Montserrat";
+      border: 2px solid black;
+    }
+
+    #contactus p {
+      font-size: 1.4em;
+      color: rgb(131, 131, 131);
+    }
+
+    .contenitorecontattaci {
+      border-top: 10px solid rgb(14, 112, 119);
+      border-bottom: 10px solid rgb(14, 112, 119);
+      border-left: 3px solid rgb(14, 112, 119);
+      border-right: 3px solid rgb(14, 112, 119);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 560px;
+      padding: 20px;
+      background-color: white;
+    }
+
+    #contactus form {
+      margin-top: 18px;
+    }
+
+    .contenitorecontattaci img{
+      width: 20%;
+      margin-bottom: -30px;
+    }
+    .contenitorecontattaci h2{
+      font-size: 4em;
+      color: rgb(13, 126, 134);
+      font-family: 'Libre Baskerville', sans-serif;
+      margin-bottom: -10px;
+    }
+    
+    .contenutoformcontattaci {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+
+    .contenutoformcontattaci label {
+      font-size: 1.4em;
+    }
+    
+    .contenutoformcontattaci input,
+    .contenutoformcontattaci textarea {
+      width: 100%;
+      padding: 5px;
+      font-size: 1em;
+      border: 1px solid rgba(128, 128, 128, 0.199);
+      margin-top: 5px;
+    }
+    
+    .casella_invia{
+      display: inline-block;
+      width: 95%;
+      padding: 12px; 
+      border: 1px solid rgb(223, 223, 223);
+      margin-top: 50px;
+      background-color: rgb(19, 146, 155);
+      font-size: 1.3em;
+      color: white;
+    }
+
+    .casella_invia:hover {
+      opacity: 0.7;
+    }
+  
+    /*
+    #contactus #avviso.success {
+      background-color: rgb(211, 250, 153);
+    }
+    
+    #contactus #avviso.error {
+      background-color: rgb(243, 95, 50);
+      color: white;
+    }  */
+    
+    
+    @media (max-width: 1000px){
+      section#contactus {
+        border: none;
+        background-color: white;
+      }
+
+      .contenitorecontattaci {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        max-width: 400px;
+      }
+
+      .contenitorecontattaci img{
+        width: 15%;
+      }
+      .contenitorecontattaci h2{
+        font-size: 2.5em;
+      }
+    }
+
+    /*
+    .correctj label {
+        color: rgb(10, 214, 38);
+    } */
+    
+    .correctj input {
+        border-color: rgb(10, 214, 38);
+    }
+
+    .correctj textarea {
+      border-color: rgb(10, 214, 38);
+  }
+  /*
+      .errorj label {
+        color: red;
+    } */
+
+    .errorj span, span.errorj {
+      opacity: 1;
+      color: red;
+    }
+
+    span.errorj {
+      font-size: 1.6em;
+    }
+    
+    .errorj textarea {
+      border-color: red;
+  }
+    .errorj input {
+      border-color: red;
+    }
+
+    /*--------------------*/
+    /*AVVISO*/
+
+    body#alert {
+      background: rgb(241, 241, 241);
+      height: 100%;
+      margin-left: 400px;
+      margin-right: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contenitoregrazie {
+      padding: 30px;
+      text-align: center;
+    }
+    
+    .contenitoregrazie h1{
+      font-size: 4.5em;
+      letter-spacing: 3px;
+      color: rgb(1, 104, 145);
+    }
+
+    .contenitoregrazie p{
+      font-size: 2.1em;
+      margin-top: 60px;
+      margin-bottom: 120px;
+      color: rgb(173, 173, 173);
+      font-family: 'Source Sans Pro', sans-serif;
+      letter-spacing: 1px;
+    }
+    
+    .contenitoreredirect {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    a.tasto{
+      color:#fff;
+      background:rgb(1, 104, 145);
+      padding: 10px 50px;
+      font-style: normal;
+      font-size: 1.7em;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-decoration: none;
+    }
+
+    a.tasto:hover{
+      background-color: rgb(0, 132, 184);
+      color: rgb(255, 255, 255);
+      text-decoration: underline;
+    }
+
+    /*----------------------*/
+    /*PROFILO*/
+    #profiloutente header {
+      background-image: url("https://wallpaperaccess.com/full/822051.jpg");
+      height: 640px; 
+    }
+
+    #profiloutente header nav{
+      background: rgba(17, 161, 159, 0.5);
+    }
+
+
+    #profiloutente #links a{
+      z-index: 1;
+    }
+
+    .profile {
+      margin: -50px auto 0px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 18px;
+      color: rgb(51, 51, 51);
+      line-height: 24px;
+    }
+    
+    .profile .utente {
+      font-weight: bold;
+      font-size: 2.8em;
+      margin-top: 30px;
+      margin-bottom: 35px;
+      text-transform: capitalize;  /*PER FARE LA PRIMA LETTERA MAIUSCOLA*/
+    }
+    
+    .profile .indirizzo {
+      font-style: italic;
+      font-size: 1.3em;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #c0c0c0;
+      display: block;
+    }
+    
+    .profile img {
+      width: 18%;
+      margin-top: -160px;
+      background-color: rgb(236, 236, 236);
+      border-radius: 100%;
+      z-index: 1;
+    }
+
+    #preferiti .details p {
+      font-size: 1.9em;
+      color: rgb(7, 101, 117);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*-------------------------------*/
+
+    img.stella:hover{
+      background-color: rgb(231, 230, 230);
+    }
+
+  .details h1 {
+    color: rgb(0, 0, 0, 0.7);
+    /*font-weight: bold;*/
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    /*font-size: 2em;*/
+    /*text-align: center*/
+    border-bottom: 6px solid rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+  }
+
+
+  @media (max-width: 520px) {
+    .details h1 {
+      letter-spacing: 1.5px;
+      font-size: 1em;
+    }
+  }
+
+  .moredetails, .lessdetails{
+    margin-top: -20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1em;
+    font-style: italic;
+    font-family: 'Libre Baskerville', sans-serif;
+  }
+
+  .lessdetails{
+    margin-top: 1px
+  }
+
+  .otherdetails{
+    margin-top: -15px;
+    color: black;
+    font-size: 1.4em;
+    font-family:'Times New Roman', Times, serif
+  }
+  .moredetails:hover, .lessdetails:hover{
+    text-decoration: underline;
+  }
+
+  @media (max-width: 520px){
+    .moredetails, .otherdetails{
+      margin-top: 5px;
+      font-size: 0.9em;
+    }
+  }
+
+  .titolo {  
+    position: relative;
+    color: rgba(0, 0, 0, 1);   
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-weight: bold;*/
+    font-style: italic;
+    font-size: 1.4em;
+    /*text-align: center*/
+    line-height: 55px;
+    text-decoration: underline; 
+    margin-top: 100px;  
+  }
+
+  @media (max-width: 520px) { 
+    .titolo{
+      font-size: 1.2em;
+      line-height: 35px;
+    }
+  }   
+
+  .titolo div{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin-top: 4px;
+  }
+
+  #principale input {
+      height: 18px;
+      background-image: url('lente.png');
+      background-repeat: no-repeat;
+      background-size: 17px;
+      background-position: 140px;
+  }
+
+  .titolo img{
+    display: none;
+  }
+
+  @media (max-width: 1000px){
+    #principale input{
+      display: none;
+    }
+
+    .titolo img{
+      display: inline-block; 
+    }
+  }
+
+  @media (max-width: 390px){
+    .titolo img{
+        height: 14px;
+        width: 14px;
+        margin-bottom: -5px;
+        margin-right: -25px;;
+        }
+  }
+
+  @media (min-width: 390px) and (max-width: 520px){
+    .titolo img{
+    height: 14px;
+    width: 14px;
+    margin-bottom: -3px;
+    margin-right: -6px;
+    }
+  } 
+
+  @media (min-width: 521px) and (max-width:1000px){
+    .titolo img{
+      height: 18px;
+      width: 18px;
+      margin-bottom: -3px;
+      margin-right: -10px;;
+      }
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrow img{
+    width: 40px;
+    height: 40px;
+    margin-top: -50px;
+    border-radius: 100%;  
+    /*background-color: white;*/
+  }
+
+  .altrireparti{  
+    border-bottom: 4px solid black;
+  }
+
+  .hidden {
+    display: none;
+}
+
+  /*---------------------------------------------------*/
+  
+  section #googlemaps a{  
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    background-color: rgba(136, 136, 136, 0.1);
+}
+
+  /*DIMENSIONI FOTO GOOGLE MAPS*/
+  #googlemaps img{
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+@media (max-width: 520px) {
+  #googlemaps img{
+    width: 100%;
+    height: 100%; 
+  }
+}
+
+   /*---------------------------------------------------*/
+   
+  footer {
+    background-color: rgb(19, 146, 155);
+    position: relative;
+    color: rgba(255, 255, 255, .8); 
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+
+    padding: 20px; 
+    height: 125.6x;
+    text-align: center; 
+    border-top: 1px solid black;
+  }
+
+  @media (max-width: 520px) {  
+    footer {
+      height: 10%;
+      font-size: 0.8em;
+      padding: 10px;
+    }
+  }
+  
+  footer #trovaci{
+    /*color già specificato sopra in footer*/
+    font-family: 'Libre Baskerville', 'sans-serif';
+    font-weight: bold;
+    font-style: italic;
+    /*font-size: 1.1em;*/
+    /*line-height: normal;*/  
+    /*text-align: center;*/
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+
+  footer .icone{ 
+  margin-top: 15px;      
+  }
+
+  footer address {
+    margin-top: 20px;
+  }
+
+  address a{  
+    color: rgba(255, 255, 255, .8);  
+    text-decoration: none;
+    /*font-family: 'Libre Baskerville';*/
+    /*font-weight: normal;*/
+    /*font-style: italic; --> address*/
+    /*font-size: 1.1em;*/
+    /*text-align: center;*/
+    /*line-height: normal;*/ /*default*/
+  }
+
+  address a:hover{
+    text-decoration: underline;
+    color: white;
+  }
+
+  #lineaconclusiva{
+    color: white;
+    /*font-family: 'Libre Baskerville';*/
+    /*font-weight: normal;*/
+    font-style: normal;
+    /*font-size: 1.1em;*/
+    /*text-align: center;*/
+    line-height: 36px;  
+    position: absolute;
+    left: 0;   
+    right: 0;
+    background-color: rgba(15, 104, 117, 0.9);
+}
+   
+@media (max-width: 520px) {
+  address a, #lineaconclusiva {
+    font-size: 0.95em;
+    line-height: 24px;
+  }
+}
+
